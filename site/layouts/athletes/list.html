@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
+  </article>
+  <ul class="athletes">
+  {{ range .Pages }}
+    <li class="athlete">
+      <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+      <img src="{{ .Params.image }}" />
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}
