@@ -1,7 +1,7 @@
 ---
 title: Chris Flint
 date: 2018-08-12T01:37:12.000Z
-image: /img/default.jpg
+image: /img/d2b1cf8f-191d-4d57-b91f-04aa2a68e881.jpeg
 ---
 My name is Chris Flint. I am 40 years old. I have competed in 10 triathlons and several runs of different distances, up to marathon, while training with Brian. My son, who is soon to be 15 started training with Brian in February of this year and has competed in 2 sprint triathlons so far and he will race in two more sprint triathlons this year. 
 
