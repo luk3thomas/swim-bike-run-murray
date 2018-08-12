@@ -1,5 +1,0 @@
----
-title: Testimonials
----
-
-Testimonials

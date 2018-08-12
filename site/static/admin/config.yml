@@ -6,14 +6,23 @@ public_folder: img
 
 collections: # A list of collections the CMS should be able to edit
   - name: post # Used in routes, ie.: /admin/collections/:slug/edit
-    label: Post # Used in the UI, ie.: New Post
-    folder: site/content/post # The path to the folder where the documents are stored
+    label: Blog post
+    folder: site/content/blog # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: Title, name: title, widget: string}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Intro Blurb, name: description, widget: text}
       - {label: Image, name: image, widget: image, required: false}
+      - {label: Body, name: body, widget: markdown}
+  - name: athlete-bios
+    label: Athlete Bios
+    folder: site/content/athlete-bios
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Publish Date, name: date, widget: datetime}
+      - {label: Image, name: image, widget: image, required: true}
       - {label: Body, name: body, widget: markdown}
   - name: pages
     label: Pages
@@ -25,15 +34,39 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Image, name: main_image, widget: image}
+      - file: site/content/blog/_index.md
+        label: Blog
+        name: blog
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: site/content/resources/_index.md
+        label: Resources
+        name: resources
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: site/content/swim-bike-run-murray/_index.md
+        label: SBR Murray
+        name: swim-bike-run-murray
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
       - file: site/content/contact/_index.md
         label: Contact Page
         name: contact
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: site/content/testimonials/_index.md
-        label: Testimonials Page
-        name: testimonials
+      - file: site/content/athlete-bios/_index.md
+        label: Athlete Bios
+        name: athlete-bios
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: site/content/calendar/_index.md
+        label: Calendar
+        name: calendar
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}

@@ -1,8 +1,21 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body class="sans-serif">
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer" }}
+  <body id="wrapper">
+    <header id="header">
+      <div class="wrapper">
+        {{ partial "header" }}
+      </div>
+    </header>
+    <main id="main">
+      <div class="wrapper">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="wrapper">
+        {{ partial "footer" }}
+      </div>
+    </footer>
   </body>
 </html>

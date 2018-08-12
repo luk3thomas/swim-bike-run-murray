@@ -1,8 +1,85 @@
 body {
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
+  height: 100vh;
+  font: 16px/1.5 bookman, georgia, serif;
 }
 
 img {
   max-width: 100%;
+}
+
+a {
+  color: #239847;
+  text-decoration: none;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+#main {
+  flex-grow: 1;
+}
+
+#header {
+  background: #1b2d45;
+  padding: 20px 0;
+}
+
+#header .navigation {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header a {
+  color: white;
+}
+
+.navigation {
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#footer .navigation {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer {
+  background: #1b2d45;
+  padding: 20px 0;
+}
+
+#footer a {
+  color: white;
+}
+
+.calendar iframe {
+  width: 100%;
+  height: 60vw;
+  max-height: 600px;
+  border: none;
 }
