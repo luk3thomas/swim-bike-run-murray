@@ -15,9 +15,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Intro Blurb, name: description, widget: text}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Body, name: body, widget: markdown}
-  - name: athlete-bios
-    label: Athlete Bios
-    folder: site/content/athlete-bios
+  - name: athletes
+    label: Athletes
+    folder: site/content/athletes
     create: true
     fields:
       - {label: Title, name: title, widget: string}
@@ -58,9 +58,9 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-      - file: site/content/athlete-bios/_index.md
-        label: Athlete Bios
-        name: athlete-bios
+      - file: site/content/athletes/_index.md
+        label: Athletes
+        name: athletes
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
