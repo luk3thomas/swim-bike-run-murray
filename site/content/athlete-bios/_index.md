@@ -1,5 +1,5 @@
 ---
-title: Athlete bios
+title: 'Athletes '
 ---
 
 Bios
