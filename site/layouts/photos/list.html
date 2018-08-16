@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
+  </article>
+  <div class="photos">
+  {{ range $path := .Params.photos }}
+    <a class="photo" href="{{ $path }}" target="_blank">
+      <img src="{{ $path }}" />
+    <a/>
+  {{ end }}
+  </ul>
+{{ end }}
