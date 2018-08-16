@@ -11,6 +11,6 @@ I have had the opportunity to coach athletes ranging in age from 12 to 65 over t
 
 Please contact me if you are interested in seeing how I can help you reach your goals. I look forward to hearing from you.
 
-![]()
+![](/img/6c9ce0b0-4ad4-4354-ada9-9b4cc3319b39.jpeg)
 
-SBR Performance Coaching, BarryS Coaching, and TriMasters Swimming combine to form a professional team to help you reach your endurance goals.  While working with Coach Brian you also have access to many of the benefits provided by BarryS Coaching, Coach  Barry Stokes and TriMasters swimming,  Coach Mike Jotautas
+SBR Performance Coaching, BarryS Coaching, and TriMasters Swimming combine to form a professional team to help you reach your endurance goals.  While working with Coach Brian you also have access to many of the benefits provided by BarryS Coaching, Coach  Barry Stokes and TriMasters swimming,  Coach Mike Jotautas.
