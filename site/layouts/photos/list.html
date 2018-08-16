@@ -6,9 +6,9 @@
     {{ .Content }}
   </article>
   <div class="photos">
-  {{ range $path := .Params.photos }}
-    <a class="photo" href="{{ $path }}" target="_blank">
-      <img src="{{ $path }}" />
+  {{ range $photo := .Params.photos }}
+    <a class="photo" href="{{ $photo.image }}" target="_blank">
+      <img src="{{ $photo.image }}" />
     <a/>
   {{ end }}
   </ul>
