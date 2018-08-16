@@ -1,5 +1,5 @@
 ---
-title: About
+title: 'SBR Performance Coaching '
 ---
 Hi, this is Coach Brian Williams. I have been a certified USAT, USA and USMS Masters coach for a few years now.  However it feels like I have been coaching my entire adult life. Raising five kids, coaching baseball, softball, soccer, and swimming. Then as a Coast Guardsman, I trained, taught, and worked with adults from various backgrounds for over thirty years. Now I work part time as a substitute teacher (K-12) in the local school systems.  I believe these experiences have honed my skills as a successful coach. 
 
