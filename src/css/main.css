@@ -108,3 +108,20 @@ h1 {
   padding-right: 10px;
   max-height: 300px;
 }
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 25%;
+  display: block;
+  height: 25vh;
+}
+
+.photo img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
