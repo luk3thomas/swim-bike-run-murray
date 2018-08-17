@@ -32,6 +32,8 @@ photos:
   - image: /img/gallery-31.jpg
   - image: /img/gallery-22.jpg
   - image: /img/gallery-24.jpg
+  - image: /img/3ce8711f-63ec-45e1-ab80-615bcd2f607b.jpeg
+  - image: /img/f84e1a49-b6ea-4601-9038-eb0a13352d22.jpeg
 ---
 
 Photos
