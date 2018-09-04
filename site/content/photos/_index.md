@@ -34,6 +34,43 @@ photos:
   - image: /img/gallery-24.jpg
   - image: /img/3ce8711f-63ec-45e1-ab80-615bcd2f607b.jpeg
   - image: /img/f84e1a49-b6ea-4601-9038-eb0a13352d22.jpeg
+  - image: /img/e6f56d4b-1be1-4179-b036-3725a5d2499d.jpeg
+  - image: /img/a4deb871-e844-4ff5-a4ce-753af157eda6.jpeg
+  - image: /img/1d4cb798-381a-4374-aa07-5bb92fa3de0e.jpeg
+  - image: /img/75ece134-5722-48d8-8e7c-b1aebc46757e.jpeg
+  - image: /img/c8735502-f5ab-4bcd-904d-444257e0ffb7.jpeg
+  - image: /img/334b516d-68f5-430f-a736-61a0c13d53c6.jpeg
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
 ---
 
 Photos
