@@ -22,9 +22,7 @@ photos:
   - image: /img/gallery-19.jpg
   - image: /img/gallery-20.jpg
   - image: /img/gallery-21.jpg
-  - image: /img/gallery-22.jpg
   - image: /img/gallery-23.jpg
-  - image: /img/gallery-24.jpg
   - image: /img/gallery-25.jpg
   - image: /img/gallery-26.jpg
   - image: /img/gallery-27.jpg
@@ -106,6 +104,8 @@ photos:
   - image: /img/dd8f81f2-431c-4151-826c-49e9c45f2b7b.jpeg
   - image: /img/e6f56d4b-1be1-4179-b036-3725a5d2499d.jpeg
   - image: /img/f84e1a49-b6ea-4601-9038-eb0a13352d22.jpeg
+  - image: /img/gallery-22.jpg
+  - image: /img/gallery-24.jpg
 ---
 
 Photos
