@@ -51,7 +51,10 @@ collections: # A list of collections the CMS should be able to edit
         name: resources
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+          - {label: Resources, name: resources, widget: list, fields: [
+            {label: Title, name: title, widget: string},
+            {label: Link, name: link, widget: string}
+          ]}
       - file: site/content/swim-bike-run-murray/_index.md
         label: SBR Murray
         name: swim-bike-run-murray
